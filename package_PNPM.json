@@ -5,7 +5,8 @@
   "main": "dist/index.js",
   "module": "dist/index.esm.js",
   "scripts": {
-    "build": "rollup -c"
+    "build": "rollup -c",
+    "clean": "pnpm store prune && rm -rf node_modules && rm -rf pnpm-lock.yaml"
   },
   "repository": {
     "type": "git",
