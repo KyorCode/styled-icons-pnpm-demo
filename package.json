@@ -1,0 +1,24 @@
+{
+  "name": "styled-icons-pnpm-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "module": "dist/index.esm.js",
+  "scripts": {
+    "build": "rollup -c"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KyorCode/styled-icons-pnpm-demo.git"
+  },
+  "dependencies": {
+    "styled-icons": "^9.0.1"
+  },
+  "devDependencies": {
+    "rollup": "^1.27.6",
+    "rollup-plugin-cleaner": "^1.0.0",
+    "rollup-plugin-node-resolve": "^5.2.0",
+    "rollup-plugin-typescript2": "^0.25.2",
+    "typescript": "^3.7.2"
+  }
+}
