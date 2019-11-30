@@ -15,3 +15,7 @@ This is actually typescript trying to resolve the imported types. But due to PNP
 
 Switch the content `package.json` with that from `package_PNPM.json`. 
 
+- Run `pnpm install`
+- Run `pnpm run build`
+
+The error should be gone and the package should be build.
